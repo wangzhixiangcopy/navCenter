@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrapper {
+    background: #008c8c;
+    border: 1px solid #000;
+}
+
+.wrapper ul {
+    display: table;
+    margin: 0 auto;
+    border: 1px solid #f00;
+}
+
+.wrapper ul::after {
+    content: '';
+    display: inline-block;
+    clear: both;
+}
+
+.wrapper ul li {
+    float: left;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    width: 200px;
+}
